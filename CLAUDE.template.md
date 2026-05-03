@@ -146,6 +146,7 @@ Coverage: happy path + error handling + edge cases (null, empty, extremes)
 | `/pre-pr-audit` | Pre-PR confidence audit (5-dimension scoring) | Quality |
 | `/project-audit` | Project health audit with scoring | Quality |
 | `/best-practices` | Industry best practices conformance audit | Quality |
+| `/necessity-audit` | Detect over-engineering in lifecycle specs (6-dim + Codex debate) | Quality |
 | `/dep-audit` | Dependency vulnerability audit | Periodic / PR |
 | `/generate-runner` | Generate customized precommit runner | Tooling |
 | `/update-docs` | Sync docs with code | Doc changes |
@@ -155,6 +156,7 @@ Coverage: happy path + error handling + edge cases (null, empty, extremes)
 | `/safe-remove` | Safely remove plugin assets | Tooling |
 | `/refactor` | Multi-target refactoring orchestrator | Refactoring |
 | `/simplify` | Code simplification | Refactoring |
+| `/ui-first-principles` | Scenario → JTBD → field-priority IA reasoning | Design |
 | `/de-ai-flavor` | Remove AI artifacts | Doc changes |
 | `/zh-tw` | Rewrite in Traditional Chinese | i18n |
 | `/install-rules` | Install plugin rules to .claude/rules/ | Onboarding |
@@ -171,6 +173,7 @@ Coverage: happy path + error handling + edge cases (null, empty, extremes)
 | `/watch-ci` | Monitor GitHub Actions CI runs | Git |
 | `/create-pr` | Create GitHub PR from branch | Git |
 | `/smart-rebase` | Smart partial rebase (squash-merge repos) | Git |
+| `/epic-merge` | Sequential squash-merge of stacked PR chains into epic branch | Git |
 | `/pr-summary` | PR status summary (grouped by ticket) | Git |
 | `/contract-decode` | EVM contract error/calldata decoder | Blockchain |
 | `/jira` | Jira integration (view/branch/transition) | Jira workflow |
